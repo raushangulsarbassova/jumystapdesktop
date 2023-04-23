@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter");
+body{
+    margin:0;
+    padding: 0;
+}
+.main-page{
+    background-color: #f1f1f1;
+    width:100%;
+    height:100%;
+}
+.second-page{
+    background-color: #e1dee7;
+    border-radius: 32px;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    margin-left: 5%;
+    margin-right: 87.32px;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-right: 760px;
+}
+.logo.text{
+    font-family: "Kanit";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+.menu{
+    display:flex;
+    flex-direction:row;
+    margin:auto;
+    margin-top:2%;
+    /*margin-right: 1%;*/
+    justify-content: space-around;
+    width:40%;
+    height: 30%;
+}
+.nav{
+    border: transparent;
+}
+.description{
+    margin-left: 5%;
+    margin-right: 5.5%;
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 147px;
+    width: 495px;
+height: 268px;
+}
+.VisualContent{
+    display:flex;
+    margin-top: 7%;
+    margin-left: 165px;
+    width: 60%;
+    height: 40%;
+}
+
+.Big_text{
+    font-size: 54px;
+    font-family: 'Kanit';
+    font-style: bold;
+    font-weight: 700;
+    line-height: 64px;
+}
+.small_text{
+    font-size: 16px;
+    margin-top: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.button_how_it_works{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-text{
+    display: flex;;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    justify-content: center;
+}
+.frame {
+    display: flex;
+    flex-direction: row;
+}
+.frame1{
+    font-family: 'Inter';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+.howItworks{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+}
+.loremipsum{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.maintext{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.subtext{
+    font-family: 'Inter' ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+.Lets_get_started{
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 64px;
+}
+.the_best_tool{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+}
+
+.search{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+margin-left: 12px;
+color: #000000;
+opacity: 0.2;
+}
+
+.findJob{
+    display: flex;
+    flex-direction: row;
+}
+.text_inside-find_job{
+    display: flex;
+    flex-direction: row;
+}
+
+.CVsubmisiion{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+height: 548px;
+
+}
+.text_CV_sub{
+    display: flex;
+    flex-direction: column;
+}
+.upload{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.upload_CV{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+}
+.description_CV{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.footer_last{
+    width: 1440px;
+    height: 172px;
+    border-radius: 32px 32px 0px 0px;
+    background-color: white;
+}
+.final_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7%;
+    padding-top: 32px;
+}
+.footer_menu{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.footer_long_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081E34;
+    opacity: 0.5;
+    margin-left: 117px;
+}
+
+.last_text{
+    color: #081E34;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 1100px;
+    margin-top: 42px;
+}
